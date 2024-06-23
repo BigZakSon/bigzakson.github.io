@@ -46,7 +46,6 @@ body {
 }
 
 .social-box:hover {
-    background-color: #333;
     transform: scale(1.05);
 }
 
@@ -58,4 +57,16 @@ body {
 .social-box p {
     margin: 5px 0 0;
     font-size: 1.2rem;
+}
+
+.social-box:nth-child(1):hover {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-box:nth-child(2):hover {
+    background: linear-gradient(45deg, #1DA1F2 0%, #0D8BDA 100%);
+}
+
+.social-box:nth-child(3):hover {
+    background: linear-gradient(45deg, #5865F2 0%, #404EED 100% );
 }
