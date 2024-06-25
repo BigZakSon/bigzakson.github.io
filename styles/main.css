@@ -18,7 +18,7 @@ body {
 
 .header {
     text-align: center;
-    margin-bottom: 90px; /* added unit 'px' */
+    margin-bottom: 90px;
 }
 
 .header h1 {
@@ -40,7 +40,7 @@ body {
 
 .social-box {
     background-color: #1e1e1e;
-    border: 2px solid #333;
+    border: 2px solid #ff2f2f;
     border-radius: 10px;
     padding: 20px;
     margin: 10px 0;
@@ -50,7 +50,7 @@ body {
     overflow: hidden;
     position: relative;
     transition: transform 0.3s;
-    text-decoration: none; /* Remove underline from links */
+    text-decoration: none;
 }
 
 .social-box::before {
@@ -64,7 +64,7 @@ body {
     background: -moz-linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     transition: left 0.5s ease-in-out;
-    z-index: 1; /* changed to 1 to ensure it's on top of the box */
+    z-index: 1;
 }
 
 .social-box:nth-child(2)::before {
@@ -95,14 +95,14 @@ body {
     margin: 0;
     font-size: 1.5rem;
     position: relative;
-    z-index: 2; /* increased z-index to ensure it's on top of the gradient */
+    z-index: 2;
 }
 
 .social-box p {
     margin: 5px 0 0;
     font-size: 1.2rem;
     position: relative;
-    z-index: 2; /* increased z-index to ensure it's on top of the gradient */
+    z-index: 2;
 }
 
 @keyframes slideIn {
